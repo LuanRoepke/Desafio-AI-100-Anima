@@ -10,6 +10,7 @@ Nessa etapa após baixar os dados para o computador local, precisa-se enviar par
 # Segunda etapa Explorar Dados
 
 Diante da quantidade de colunas precisamos filtrar aquilo que realmente o cliente espera, prever notas de ciencias naturais em relação a matemática NU_NOTA_CN como Label e NU_NOTA_MT como feature;
+
 Também podemos eliminar linhas sem informações da NU_NOTA_MT, e normalizar como opção, acabei fazendo, mas não era necessário já que o valor são de mesma escala;
 Em seguida pode ser executado para verificar alguma incompatibilidade, se estiver tudo certo, pode dar sequencia para os próximos passos;
 
