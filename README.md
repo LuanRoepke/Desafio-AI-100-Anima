@@ -20,11 +20,11 @@ Nessa etapa, vamos fazer um treinamento dos dados, para depois conseguir prever 
 
 Para isso usamos as seguintes ferramentas:
 
-SPLIT DATA: vai dividir em 70% para treinar modelo e 30% para pontuar a precisão do teste
-LINEAR REGRESSION: algorítimo de machine learning para prever valores futuros em relação ao que se tem nos dados
-TRAIN MODEL: irá treinar os 70% dos dados usando o algorítimo acima.
-SCORE MODEL: irá pontuar valores em relação aos 30% que foi usado para fazer comparativo entre o certo e o previsto.
-EVALUETE MODEL: irá concluir através de métricas se o treinamento foi eficaz
+ SPLIT DATA: vai dividir em 70% para treinar modelo e 30% para pontuar a precisão do teste
+ LINEAR REGRESSION: algorítimo de machine learning para prever valores futuros em relação ao que se tem nos dados
+ TRAIN MODEL: irá treinar os 70% dos dados usando o algorítimo acima.
+ SCORE MODEL: irá pontuar valores em relação aos 30% que foi usado para fazer comparativo entre o certo e o previsto.
+ EVALUETE MODEL: irá concluir através de métricas se o treinamento foi eficaz
 
 
 # Quarta etapa Pipeline de inferência
@@ -36,17 +36,17 @@ Excluir avaliação de modelo e inserir (EXECUTE PHYTON SCRIPT)
 
 Abaixo 9 valores previstos pela Machine learning:
 
-NU_NOTA_CN PREVISTA              NU_NOTA_MT ENVIADO MANUALMENTE
-     388.685959                               326
-     537.011854                               654
-     623.384555                               845
-     683.528896                               978
-     483.650709                               536
-     297.791128                               125
-     457.422349                               478
-     670.866929                               950
-     361.100961                               265
+|NU_NOTA_CN PREVISTA       |       NU_NOTA_MT ENVIADO MANUALMENTE|
+|--------------------------|-------------------------------------|
+|     388.685959           |                    326              |
+|     537.011854           |                    654              |
+|     623.384555           |                    845              |
+|     683.528896           |                    978              |
+|     483.650709           |                    536              |
+|     297.791128           |                    125              |
+|     457.422349           |                    478              |
+|     670.866929           |                    950              |
+|     361.100961           |                    265              |
      
-     ![conjunto de dados](https://user-images.githubusercontent.com/85907822/122700280-595db800-d221-11eb-9806-3435f87e26cd.jpg)
-   
-    Dessa forma se conclui que quem é bom em matemática, teve mais dificuldade em CN, porém a precisão do treino não ficou muito precisa e talvez deveria usar outro algoritimo para verificar se tem melhor validação.
+
+   Dessa forma se conclui que quem é bom em matemática, teve mais dificuldade em CN, porém a precisão do treino não ficou muito precisa e talvez deveria usar outro algoritimo para verificar se tem melhor validação.
