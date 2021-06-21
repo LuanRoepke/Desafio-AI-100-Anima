@@ -21,9 +21,13 @@ Nessa etapa, vamos fazer um treinamento dos dados, para depois conseguir prever 
 Para isso usamos as seguintes ferramentas:
 
  SPLIT DATA: vai dividir em 70% para treinar modelo e 30% para pontuar a precisão do teste
+ 
  LINEAR REGRESSION: algorítimo de machine learning para prever valores futuros em relação ao que se tem nos dados
+ 
  TRAIN MODEL: irá treinar os 70% dos dados usando o algorítimo acima.
+ 
  SCORE MODEL: irá pontuar valores em relação aos 30% que foi usado para fazer comparativo entre o certo e o previsto.
+ 
  EVALUETE MODEL: irá concluir através de métricas se o treinamento foi eficaz
 
 
