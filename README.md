@@ -1,4 +1,5 @@
-# Desafio-AI-100-Anima: LUAN ALYSSON ROEPKE (realizado sozinho)
+# Desafio Final - Trilha Engenheiro IA Microsoft - DESAFIO 1 - LUAN ALYSSON ROEPKE
+
 Descrever como foi executado o desafio 1 do curso engenheiros de IA by Microsoft
 
 
